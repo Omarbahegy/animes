@@ -13,11 +13,11 @@
             <div class="span8">
                 <div class="flexslider">
                 <ul class="slides">
-                    <li><a href="gallery-single.htm"><img src= {{ asset('Theme/img/gallery/slider-img-1.jpg') }} alt="slider" /></a></li>
-                    <li><a href="gallery-single.htm"><img src= {{ asset('Theme/img/gallery/slider-img-1.jpg') }} /></a></li>
-                    <li><a href="gallery-single.htm"><img src= {{ asset('Theme/img/gallery/slider-img-1.jpg') }} /></a></li>
-                    <li><a href="gallery-single.htm"><img src= {{ asset('Theme/img/gallery/slider-img-1.jpg') }} /></a></li>
-                    <li><a href="gallery-single.htm"><img src= {{ asset('Theme/img/gallery/slider-img-1.jpg') }} /></a></li>
+                    <li><a href="gallery-single.htm"><img src=" {{ asset('Theme/img/gallery/slider-img-1.jpg') }} "alt="slider" /></a></li>
+                    <li><a href="gallery-single.htm"><img src= "{{ asset('Theme/img/gallery/slider-img-1.jpg') }}" /></a></li>
+                    <li><a href="gallery-single.htm"><img src= "{{ asset('Theme/img/gallery/slider-img-1.jpg') }}" /></a></li>
+                    <li><a href="gallery-single.htm"><img src=" {{ asset('Theme/img/gallery/slider-img-1.jpg') }}" /></a></li>
+                    <li><a href="gallery-single.htm"><img src= "{{ asset('Theme/img/gallery/slider-img-1.jpg') }}" /></a></li>
                 </ul>
                 </div>
             </div>
@@ -51,11 +51,11 @@
                         <li  class="span3 gallery-item" data-id="id-1" data-type="illustration">
                             <span class="gallery-hover-4col hidden-phone hidden-tablet">
                                 <span class="gallery-icons">
-                                    <a href= {{ asset('Theme/img/gallery/gallery-img-1-full.jpg') }} class="item-zoom-link lightbox" title="Custom Illustration" data-rel="prettyPhoto"></a>
+                                    <a href= "{{ asset('Theme/img/gallery/gallery-img-1-full.jpg') }}" class="item-zoom-link lightbox" title="Custom Illustration" data-rel="prettyPhoto"></a>
                                     <a href="gallery-single.htm" class="item-details-link"></a>
                                 </span>
                             </span>
-                            <a href="gallery-single.htm"><img src={{ asset('Theme/img/gallery/gallery-img-1-4col.jpg') }} alt="Gallery"></a>
+                            <a href="gallery-single.htm"><img src="{{ asset('Theme/img/gallery/gallery-img-1-4col.jpg') }}" alt="Gallery"></a>
                             <span class="project-details"><a href="gallery-single.htm">Custom Illustration</a>For an international ad campaign.</span>
                         </li>
 
@@ -63,11 +63,11 @@
                         <li class="span3 gallery-item" data-id="id-2" data-type="illustration">
                             <span class="gallery-hover-4col hidden-phone hidden-tablet">
                                 <span class="gallery-icons">
-                                    <a href= {{ asset('Theme/img/gallery/gallery-img-1-full.jpg') }} class="item-zoom-link lightbox" title="Custom Illustration" data-rel="prettyPhoto"></a>
+                                    <a href= "{{ asset('Theme/img/gallery/gallery-img-1-full.jpg') }}" class="item-zoom-link lightbox" title="Custom Illustration" data-rel="prettyPhoto"></a>
                                     <a href="gallery-single.htm" class="item-details-link"></a>
                                 </span>
                             </span>
-                            <a href="gallery-single.htm"><img src= {{ asset('Theme/img/gallery/gallery-img-1-4col.jpg') }} alt="Gallery"></a>
+                            <a href="gallery-single.htm"><img src= "{{ asset('Theme/img/gallery/gallery-img-1-4col.jpg') }}" alt="Gallery"></a>
                             <span class="project-details"><a href="gallery-single.htm">3 Color Poster Design</a>For a regional festival event.</span>
                         </li>
 
@@ -75,11 +75,11 @@
                         <li class="span3 gallery-item" data-id="id-3" data-type="web">
                             <span class="gallery-hover-4col hidden-phone hidden-tablet">
                                 <span class="gallery-icons">
-                                    <a href={{ asset('Theme/img/allery/gallery-img-1-full.jpg') }} class="item-zoom-link lightbox" title="Custom Illustration" data-rel="prettyPhoto"></a>
+                                    <a href="{{ asset('Theme/img/allery/gallery-img-1-full.jpg') }}" class="item-zoom-link lightbox" title="Custom Illustration" data-rel="prettyPhoto"></a>
                                     <a href="#" class="item-details-link"></a>
                                 </span>
                             </span>
-                            <a href="gallery-single.htm"><img src={{ asset('Theme/img/gallery/gallery-img-1-4col.jpg') }} alt="Gallery"></a>
+                            <a href="gallery-single.htm"><img src="{{ asset('Theme/img/gallery/gallery-img-1-4col.jpg') }}" alt="Gallery"></a>
                             <span class="project-details"><a href="gallery-single.htm">Ink Pen Illustration</a>Created for a best selling children's book' </span>
                         </li>
 
@@ -87,11 +87,11 @@
                         <li class="span3 gallery-item" data-id="id-4" data-type="video">
                             <span class="gallery-hover-4col hidden-phone hidden-tablet">
                                 <span class="gallery-icons">
-                                    <a href={{ asset('Theme/img/allery/gallery-img-1-full.jpg') }} class="item-zoom-link lightbox" title="Custom Illustration" data-rel="prettyPhoto"></a>
+                                    <a href="{{ asset('Theme/img/allery/gallery-img-1-full.jpg') }}" class="item-zoom-link lightbox" title="Custom Illustration" data-rel="prettyPhoto"></a>
                                     <a href="gallery-single.htm" class="item-details-link"></a>
                                 </span>
                             </span>
-                            <a href="gallery-single.htm"><img src={{ asset('Theme/img/gallery/gallery-img-1-4col.jpg') }} alt="Gallery"></a>
+                            <a href="gallery-single.htm"><img src="{{ asset('Theme/img/gallery/gallery-img-1-4col.jpg') }}" alt="Gallery"></a>
                             <span class="project-details"><a href="gallery-single.htm">Custom Illustration</a>For an international add campaign.</span>
                         </li>
 
@@ -99,11 +99,11 @@
                         <li class="span3 gallery-item" data-id="id-5" data-type="web illustration">
                             <span class="gallery-hover-4col hidden-phone hidden-tablet">
                                 <span class="gallery-icons">
-                                    <a href={{ asset('Theme/img/allery/gallery-img-1-full.jpg') }} class="item-zoom-link lightbox" title="Custom Illustration" data-rel="prettyPhoto"></a>
+                                    <a href="{{ asset('Theme/img/allery/gallery-img-1-full.jpg') }}" class="item-zoom-link lightbox" title="Custom Illustration" data-rel="prettyPhoto"></a>
                                     <a href="gallery-single.htm" class="item-details-link"></a>
                                 </span>
                             </span>
-                            <a href="gallery-single.htm"><img src={{ asset('Theme/img/gallery/gallery-img-1-4col.jpg') }} alt="Gallery"></a>
+                            <a href="gallery-single.htm"><img src="{{ asset('Theme/img/gallery/gallery-img-1-4col.jpg') }}" alt="Gallery"></a>
                             <span class="project-details"><a href="gallery-single.htm">Icon Design</a>Classic retro style illustration.</span>
                         </li>
 
@@ -115,7 +115,7 @@
                                     <a href="gallery-single.htm" class="item-details-link"></a>
                                 </span>
                             </span>
-                            <a href="gallery-single.htm"><img src={{ asset('Theme/img/gallery/gallery-img-1-4col.jpg') }} alt="Gallery"></a>
+                            <a href="gallery-single.htm"><img src="{{ asset('Theme/img/gallery/gallery-img-1-4col.jpg') }}" alt="Gallery"></a>
                             <span class="project-details"><a href="gallery-single.htm">Animation Cell</a>Creative storyboard illustration</span>
                         </li>
 
@@ -123,11 +123,11 @@
                         <li class="span3 gallery-item" data-id="id-7" data-type="design">
                             <span class="gallery-hover-4col hidden-phone hidden-tablet">
                                 <span class="gallery-icons">
-                                    <a href={{ asset('Theme/img/allery/gallery-img-1-full.jpg') }} class="item-zoom-link lightbox" title="Custom Illustration" data-rel="prettyPhoto"></a>
+                                    <a href="{{ asset('Theme/img/allery/gallery-img-1-full.jpg') }}" class="item-zoom-link lightbox" title="Custom Illustration" data-rel="prettyPhoto"></a>
                                     <a href="gallery-single.htm" class="item-details-link"></a>
                                 </span>
                             </span>
-                            <a href="gallery-single.htm"><img src= {{ asset('Theme/img/gallery/gallery-img-1-4col.jpg') }} alt="Gallery"></a>
+                            <a href="gallery-single.htm"><img src= "{{ asset('Theme/img/gallery/gallery-img-1-4col.jpg') }}" alt="Gallery"></a>
                             <span class="project-details"><a href="gallery-single.htm">Poster Ad Campaign</a>Regional ad for a local company.</span>
                         </li>
 
@@ -135,11 +135,11 @@
                         <li class="span3 gallery-item" data-id="id-8" data-type="web video">
                             <span class="gallery-hover-4col hidden-phone hidden-tablet">
                                 <span class="gallery-icons">
-                                    <a href= {{ asset('Theme/img/allery/gallery-img-1-full.jpg') }} class="item-zoom-link lightbox" title="Custom Illustration" data-rel="prettyPhoto"></a>
+                                    <a href= "{{ asset('Theme/img/allery/gallery-img-1-full.jpg') }}" class="item-zoom-link lightbox" title="Custom Illustration" data-rel="prettyPhoto"></a>
                                     <a href="gallery-single.htm" class="item-details-link"></a>
                                 </span>
                             </span>
-                            <a href="gallery-single.htm"><img src={{ asset('Theme/img/gallery/gallery-img-1-4col.jpg') }} alt="Gallery"></a>
+                            <a href="gallery-single.htm"><img src="{{ asset('Theme/img/gallery/gallery-img-1-4col.jpg') }}" alt="Gallery"></a>
                             <span class="project-details"><a href="gallery-single.htm">Magazine Ad</a>For an international add campaign.</span>
                         </li>
 
@@ -147,11 +147,11 @@
                         <li class="span3 gallery-item" data-id="id-9" data-type="design">
                             <span class="gallery-hover-4col hidden-phone hidden-tablet">
                                 <span class="gallery-icons">
-                                    <a href= {{ asset('Theme/img/allery/gallery-img-1-full.jpg') }} class="item-zoom-link lightbox" title="Custom Illustration" data-rel="prettyPhoto"></a>
+                                    <a href= "{{ asset('Theme/img/allery/gallery-img-1-full.jpg') }}" class="item-zoom-link lightbox" title="Custom Illustration" data-rel="prettyPhoto"></a>
                                     <a href="gallery-single.htm" class="item-details-link"></a>
                                 </span>
                             </span>
-                            <a href="gallery-single.htm"><img src={{ asset('Theme/img/gallery/gallery-img-1-4col.jpg') }} alt="Gallery"></a>
+                            <a href="gallery-single.htm"><img src="{{ asset('Theme/img/gallery/gallery-img-1-4col.jpg') }}" alt="Gallery"></a>
                             <span class="project-details"><a href="gallery-single.htm">Character Designs</a>For a feature film.</span>
                         </li>
 
@@ -215,7 +215,7 @@
 
                     <!-- Blog Item 1 -->
                     <div class="active item">
-                        <a href="blog-single.htm"><img src= {{ asset('Theme/img/gallery/blog-med-img-1.jpg') }} alt= class="align-left blog-thumb-preview" /></a>
+                        <a href="blog-single.htm"><img src= "{{ asset('Theme/img/gallery/blog-med-img-1.jpg') }}" alt= class="align-left blog-thumb-preview" /></a>
                         <div class="post-info clearfix">
                             <h4><a href="blog-single.htm">A subject that is beautiful in itself</a></h4>
                             <ul class="blog-details-preview">
@@ -294,11 +294,11 @@
 
                 <!-- Client Logo Thumbs-->
                 <ul class="client-logos">
-                    <li><a href="#" class="client-link"><img src= {{ asset('Theme/img/gallery/client-img-1.png') }} alt="Client"></a></li>
-                    <li><a href="#" class="client-link"><img src={{ asset('Theme/img/gallery/client-img-2.png') }}  alt="Client"></a></li>
-                    <li><a href="#" class="client-link"><img src= {{ asset('Theme/img/gallery/client-img-3.png') }} alt="Client"></a></li>
-                    <li><a href="#" class="client-link"><img src={{ asset('Theme/img/gallery/client-img-4.png') }} alt="Client"></a></li>
-                    <li><a href="#" class="client-link"><img src={{ asset('Theme/img/gallery/client-img-5.png') }} alt="Client"></a></li>
+                    <li><a href="#" class="client-link"><img src= "{{ asset('Theme/img/gallery/client-img-1.png') }}" alt="Client"></a></li>
+                    <li><a href="#" class="client-link"><img src="{{ asset('Theme/img/gallery/client-img-2.png') }}"  alt="Client"></a></li>
+                    <li><a href="#" class="client-link"><img src=" {{ asset('Theme/img/gallery/client-img-3.png') }}" alt="Client"></a></li>
+                    <li><a href="#" class="client-link"><img src="{{ asset('Theme/img/gallery/client-img-4.png') }}" alt="Client"></a></li>
+                    <li><a href="#" class="client-link"><img src="{{ asset('Theme/img/gallery/client-img-5.png') }}" alt="Client"></a></li>
                 </ul>
 
             </div>

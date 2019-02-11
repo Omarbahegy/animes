@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,4 +12,5 @@
 |
 */
 
-Route::get('/', 'pagesController@index') -> name('home');
+Route::get('/', 'pagesController@index')    -> name('home');
+Route::get('/blog', 'pagesController@blog') -> name('blog');

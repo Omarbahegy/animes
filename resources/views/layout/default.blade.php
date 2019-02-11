@@ -5,15 +5,16 @@
 </head>
 
 <body>
-
+    <div class="color-bar-1"></div>
+    <div class="color-bar-2 color-bg"></div>
     <!-- Page Header -->
+    <div class="container main-container">
         @include('partials.header')
-
+        @include('partials.navbar')
+    </div>
         <!-- Main Content -->
-    <div class="container">
-
+    <div class=" main-container">
         @yield('content')
-
     </div>
 
     <!-- Footer -->

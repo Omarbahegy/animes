@@ -7,7 +7,7 @@
         	<div class="row footer-row">
                 <div class="span3 footer-col">
                     <h5>About Us</h5>
-                   <img src= {{ asset('Theme/img/piccolo-footer-logo.png') }} alt="Piccolo" /><br /><br />
+                   <img src= "{{ asset('Theme/img/piccolo-footer-logo.png') }}"alt="Piccolo" /><br /><br />
                     <address>
                         <strong>Design Team</strong><br />
                         123 Main St, Suite 500<br />
@@ -42,18 +42,18 @@
                 <div class="span3 footer-col">
                     <h5>Flickr Photos</h5>
                     <ul class="img-feed">
-                        <li><a href="#"><img src={{ asset('Theme/img/gallery/flickr-img-1.jpg') }} alt="Image Feed"></a></li>
-                        <li><a href="#"><img src={{ asset('Theme/img/gallery/flickr-img-1.jpg') }} alt="Image Feed"></a></li>
-                        <li><a href="#"><img src={{ asset('Theme/img/gallery/flickr-img-1.jpg') }} alt="Image Feed"></a></li>
-                        <li><a href="#"><img src={{ asset('Theme/img/gallery/flickr-img-1.jpg') }} alt="Image Feed"></a></li>
-                        <li><a href="#"><img src={{ asset('Theme/img/gallery/flickr-img-1.jpg') }} alt="Image Feed"></a></li>
-                        <li><a href="#"><img src={{ asset('Theme/img/gallery/flickr-img-1.jpg') }} alt="Image Feed"></a></li>
-                        <li><a href="#"><img src={{ asset('Theme/img/gallery/flickr-img-1.jpg') }} alt="Image Feed"></a></li>
-                        <li><a href="#"><img src={{ asset('Theme/img/gallery/flickr-img-1.jpg') }} alt="Image Feed"></a></li>
-                        <li><a href="#"><img src={{ asset('Theme/img/gallery/flickr-img-1.jpg') }} alt="Image Feed"></a></li>
-                        <li><a href="#"><img src={{ asset('Theme/img/gallery/flickr-img-1.jpg') }} alt="Image Feed"></a></li>
-                        <li><a href="#"><img src={{ asset('Theme/img/gallery/flickr-img-1.jpg') }} alt="Image Feed"></a></li>
-                        <li><a href="#"><img src={{ asset('Theme/img/gallery/flickr-img-1.jpg') }} alt="Image Feed"></a></li>
+                        <li><a href="#"><img src="{{ asset('Theme/img/gallery/flickr-img-1.jpg') }}" alt="Image Feed"></a></li>
+                        <li><a href="#"><img src="{{ asset('Theme/img/gallery/flickr-img-1.jpg') }}" alt="Image Feed"></a></li>
+                        <li><a href="#"><img src="{{ asset('Theme/img/gallery/flickr-img-1.jpg') }}" alt="Image Feed"></a></li>
+                        <li><a href="#"><img src="{{ asset('Theme/img/gallery/flickr-img-1.jpg') }}" alt="Image Feed"></a></li>
+                        <li><a href="#"><img src="{{ asset('Theme/img/gallery/flickr-img-1.jpg') }}" alt="Image Feed"></a></li>
+                        <li><a href="#"><img src="{{ asset('Theme/img/gallery/flickr-img-1.jpg') }}" alt="Image Feed"></a></li>
+                        <li><a href="#"><img src="{{ asset('Theme/img/gallery/flickr-img-1.jpg') }}" alt="Image Feed"></a></li>
+                        <li><a href="#"><img src="{{ asset('Theme/img/gallery/flickr-img-1.jpg') }}" alt="Image Feed"></a></li>
+                        <li><a href="#"><img src="{{ asset('Theme/img/gallery/flickr-img-1.jpg') }}" alt="Image Feed"></a></li>
+                        <li><a href="#"><img src="{{ asset('Theme/img/gallery/flickr-img-1.jpg') }}" alt="Image Feed"></a></li>
+                        <li><a href="#"><img src="{{ asset('Theme/img/gallery/flickr-img-1.jpg') }}" alt="Image Feed"></a></li>
+                        <li><a href="#"><img src="{{ asset('Theme/img/gallery/flickr-img-1.jpg') }}" alt="Image Feed"></a></li>
                     </ul>
                 </div>
             </div>
