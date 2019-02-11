@@ -11,12 +11,8 @@
     <div class="container main-container">
         @include('partials.header')
         @include('partials.navbar')
-    </div>
-        <!-- Main Content -->
-    <div class=" main-container">
         @yield('content')
     </div>
-
     <!-- Footer -->
      @include('partials.footer')
 
