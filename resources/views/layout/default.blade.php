@@ -10,7 +10,6 @@
     <!-- Page Header -->
     <div class="container main-container">
         @include('partials.header')
-        @include('partials.navbar')
         @yield('content')
     </div>
     <!-- Footer -->
