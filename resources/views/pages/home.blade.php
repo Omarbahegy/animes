@@ -230,7 +230,7 @@
 
                     <!-- Blog Item 2 -->
                     <div class="item">
-                        <a href="blog-single.htm"><img src="img/gallery/blog-med-img-1.jpg" alt= class="align-left blog-thumb-preview" /></a>
+                        <a href="blog-single.htm"><img src= {{ asset('Theme/img/gallery/blog-med-img-1.jpg') }} alt= class="align-left blog-thumb-preview" /></a>
                         <div class="post-info clearfix">
                             <h4><a href="blog-single.htm">A great artist is always before his time</a></h4>
                             <ul class="blog-details-preview">
@@ -245,7 +245,7 @@
 
                     <!-- Blog Item 3 -->
                     <div class="item">
-                        <a href="blog-single.htm"><img src="img/gallery/blog-med-img-1.jpg" alt= class="align-left blog-thumb-preview" /></a>
+                        <a href="blog-single.htm"><img src={{ asset('Theme/img/gallery/blog-med-img-1.jpg') }} alt= class="align-left blog-thumb-preview" /></a>
                         <div class="post-info clearfix">
                             <h4><a href="blog-single.htm">Is art everything to anybody?</a></h4>
                             <ul class="blog-details-preview">
